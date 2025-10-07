@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Pinit Connect</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo-title-group">
+        <img src="pinitlogo.jpg" alt="Barangay Pinit Logo" class="logo">
+        <div class="site-title">
+          <h1>Pinit Connect</h1>
+          <p>Official Website of Barangay Pinit</p>
+        </div>
+      </div>
+      <nav class="header-nav">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <div class="auth-buttons">
+        <a href="login.html" class="auth-btn login active"><i class="fa-solid fa-user"></i> Login</a>
+        <a href="signup.html" class="auth-btn signup"><i class="fa-solid fa-star"></i> Sign Up</a>
+      </div>
+      <img src="bagongpilipinas.jpg" alt="Barangay Seal" class="second-logo">
+    </div>
+  </header>
+
+  <main class="form-page">
+    <section class="form-container glass">
+      <h2><i class="fa-solid fa-right-to-bracket"></i> Login</h2>
+      <form action="/login" method="POST">
+        <label for="email">Email / Username:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <div class="form-buttons">
+          <button type="submit" class="submit-btn">Submit</button>
+          <a href="index.html" class="cancel-btn">Cancel</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Barangay Pinit &copy; 2025.</strong> All rights reserved.</p>
+    <p>
+      Contact us: 
+      <a href="mailto:barangaypinit@gmail.com">barangaypinit@gmail.com</a> | 
+      <a href="https://facebook.com/blgu-pinit" target="_blank">Facebook</a>
+    </p>
+  </footer>
+</body>
+</html>
